@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+}
+
+.container{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container h1{
+    color: rgb(226, 226, 226);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.input-group{
+    padding: 10px;
+}
+
+.input-group input{
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-bottom: solid 3px black ;
+    outline: none;
+    background-color: rgb(226, 226, 226);
+    font-size: 1rem;
+}
+
+.input-group button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orangered;
+}
+
+.user-input{
+    background-color: rgb(226, 226, 226);
+    height: 30%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.note{
+    height: auto;
+    width: 60%;
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    border-radius:  20px;
+    margin-top: 20px;
+    
+}
+
+.note p{
+    font-size: 1.5rem;
+    color: rgb(185, 183, 183);
+}
+
+.user-input p{
+    font-size: 1.5rem;
+}
+
+#result{
+    font-size: 1.3rem;
+}
+
+
+
